@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lugar2">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Comentario" />
+
+            <Button
+                android:id="@+id/boton2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compartir Comentario" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/article"
+                android:text="Quetzaltenango es una ciudad guatemalteca ubicada en el departamento del mismo nombre. Así mismo, es la segunda ciudad más importante de Guatemala, a 206 km al noroeste de la Ciudad de Guatemala.4​ La ciudad se encuentra ubicada en un valle montañoso en el altiplano occidental de Guatemala con una altitud media sobre el nivel del mar de 2333 msnm. Cuenta con una población de 300 000 habitantes.
+
+Quetzaltenango cuenta con diversos centros educativos, como algunas de las universidades más reconocidas del país. Es la ciudad con la mayor cantidad de centros educativos por habitante por su ubicación estratégica, ya que la mayoría de sus estudiantes no son oriundos de la ciudad, sino de pueblos cercanos.
+
+Quetzaltenango fue proclamada como Capital de Centroamérica por el Parlamento Centroamericano en 2008. Es la cabecera del departamento de Quetzaltenango, que tiene 1953 km², equivalentes al 1,8 % del territorio nacional. En el siglo xxi el municipio se incorporó a la Mancomunidad Metrópoli de los Altos, una entidad que involucra a varios municipios de los departamentos de Quetzaltenango y Totonicapán y que promueve el desarrollo sostenible de los mismos a mediano y largo plazo.5​
+
+En demografía, el 50 % de la población es mestiza, el 40 % es indígena o amerindia, y el 10 % está compuesto por extranjeros (en su mayoría procedentes de México y Perú). Se habla principalmente el español, mientras que el quiché se habla en las afueras de la ciudad. De la misma forma, el quechua es hablado entre los descendientes de inmigrantes peruanos que se establecieron en la localidad.
+Corazón multicolor del Centro Histórico de Quetzaltenango, Xela. A su alrededor conserva joyas arquitectónicas de su pasado que a la fecha dan muestra de estilo neoclásico. La Ciudad de Quetzaltenango fue fundada en 1529 sobre una antigua ciudad Kiché. Cuenta con varios parques, algunos con una iglesia al frente o en la cercanía, pero el corazón del Centro Histórico es el único que conserva tanto arte en un solo lugar.
+Es uno de los edificios más atractivos no solo por su arquitectura sino porque el amplio espacio al frente permite apreciarlo en todo su potencial.  Construido en el siglo XIX y de estilo clásico albergó originalmente al Banco de Occidente. Al presente es sede de un nuevo banco.
+Consistía en realidad de 2 jardines, uno de los cuales era parte o extensión del atrio de la iglesia, sus nombres eran: Jardín de la Juventud y Jardín La Unión. Estaban separados por un portal llamado Portal de las Banderillas cuya función era plenamente comercial.
+
+En 1938 el arquitecto Rafael Pérez trazó junto a Martín Quijivix y Macario Ixcok su distribución final, durante el gobierno de Jorge Ubico. Los antiguos jardines, fueron integrados en un solo cuerpo: El Parque de Centro América.  Fue y sigue siendo centro de actividades importantes de caracter social y político, sufrió varias remodelaciones. El kiosko del Parque es un monumento a uno de los autores del Himno Nacional: Rafael Álfavez Ovalle."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_subheading"
+                android:text="Xela"
+                android:textAppearance=
+                    "@android:style/TextAppearance.DeviceDefault"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_heading"
+                android:background="@color/colorPrimary"
+                android:text="Quetzaltenango"
+                android:textAppearance=
+                    "@android:style/TextAppearance.DeviceDefault.Large"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>

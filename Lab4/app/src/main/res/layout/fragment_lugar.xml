@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lugar">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Comentario" />
+
+            <Button
+                android:id="@+id/boton1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compartir Comentario" />
+
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/article"
+                android:text="El parque se asienta en terreno calizo, por lo que el agua superficial escasea. El clima es tropical húmedo. A lo largo del año se suceden una estación seca y una lluviosa. Las precipitaciones anuales varían entre 1000 y 2400 mm. Las temperaturas máximas oscilan entre 28 y 35 °C, y las mínimas entre 15 y 22 °C.
+El parque está cubierto por selva umbrófila primaria, con un dosel que se eleva hasta unos cincuenta metros. Los árboles más abundantes son la ceiba (Ceiba pentandra), árbol sagrado de los mayas, el cedro americano (Cedrela odorata), el chicozapote (Manilkara zapota), la caoba hondureña (Swietenia macrophylla), el palo de rosa (Tabebuia rosea), el ramón (Brosimum alicastrum), el hormigo (Platymiscium dimorphandrum), el árbol de Santa María (Calophyllum brasiliense), el yarumo (Cecropia peltata), el copal (Cupania belizensis), el cojón (Stemmadenia donnell-smithii), la palma de escoba (Cryosophila argentea) y la pimienta (Pimenta dioica).
+Aún no se ha realizado un inventario faunístico detallado del parque. Y es en Guatemala Guatemala urisuri.
+
+Entre los mamíferos que pueblan el parque destacan el zorro gris (Urocyon cinereoargenteus), el jaguar (Panthera onca), el puma (Puma concolor), el yaguarundí (Herpailurus yaguarondi), el ocelote (Leopardus pardalis), el margay (Leopardus wiedii), la paca común (Agouti paca), la tamandua mexicana (Tamandua mexicanus), el kinkajú (Potos flavus), el mapache boreal (Procyon lotor), el eirá (Eira barbara), la corzuela colorada (Mazama americana) y el tapir norteño (Tapirus bairdii); también se pueden encontrar agutíes (Dasyprocta), coatíes (Nasua), monos-araña (Ateles), monos aulladores (Alouatta), pecaríes (Tayassuidae), armadillos (Dasypodidae), murciélagos (Microchiroptera)...
+Hay una gran diversidad de aves. Cabe citar el águila harpía (Harpia harpyja), el pavo ocelado (Meleagris ocellata), el halcón pechirrojo (Falco deiroleucus), la codorniz moteada (Odontophorus guttatus), el conoto de Moctezuma (Psarocolius montezuma), la aninga americana (Anhinga anhinga), la jacana centroamericana (Jacana spinosa), el martinete cucharón (Cochlearius cochlearius), el carrao (Aramus guarauna), la avetigre mexicana (Tigrisoma mexicanum), el lorito encapuchado (Pionopsitta haematotis), el loro senil (Pionus senilis), la amazona frentialba (Amazona albifrons), la amazona frentirroja (Amazona autumnalis), la amazona burrona (Amazona farinosa) y el periquito pechisucio (Aratinga nana), así como diversas especies de colibríes (Trochilidae), tucanes (Ramphastidae), carpinteros (Picidae), momotos (Momotidae) y crácidos.
+
+La herpetofauna es también muy variada, con 19 especies de ranas, 5 tortugas, 24 lagartos, como la iguana verde (Iguana iguana), 41 serpientes, una salamandra y dos cocodrilos: el cocodrilo americano (Crocodylus acutus) y el cocodrilo de Morelet (Crocodylus moreletii). Hay varias serpientes venenosas: la serpiente de coral (Micrurus altirostris), la cascabel centroamericana (Crotalus simus), así como las víboras mano de piedra (Atropoides nummifer), chatilla de la selva (Porthidium nasutum), y especialmente la barba amarilla o terciopelo (Bothrops asper).
+
+Entre los insectos, abundan las hormigas cortadoras de hojas. También se encuentran en el parque la machaca (Fulgora laternaria), el escarabajo hércules (Dynastes hercules) y muchas otras especies."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_subheading"
+                android:text="Parque nacional Tikal "
+                android:textAppearance=
+                    "@android:style/TextAppearance.DeviceDefault"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_heading"
+                android:background="@color/colorPrimary"
+                android:text="Peten"
+                android:textAppearance=
+                    "@android:style/TextAppearance.DeviceDefault.Large"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</FrameLayout>

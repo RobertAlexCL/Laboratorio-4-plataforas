@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Lugar3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/editText3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:text="Comentario" />
+
+            <Button
+                android:id="@+id/boton3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Compartir Comentario" />
+
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/article"
+                android:text="Puerto San José es un puerto localizado en el municipio de San José en la costa del Océano Pacífico de Guatemala, en el departamento de Escuintla. Su población asciende a aproximadamente 20000 personas, lo que lo hace el lugar más poblado a lo largo de la costa del Pacífico de Guatemala.
+Puerto San José era el puerto principal del litoral del Pacífico de Guatemala, y era controlado por la Empresa Marítima Nacional, la cual tenía el monopolio del desembarque de los bienes que se transportaban.
+En agosto de 1890 Puerto de San José estuvo en el centro de un conflicto internacional entre el gobierno del general Manuel Lisandro Barillas y el gobierno de los Estados Unidos; todo estuvo relacionado con la muerte a bordo de un buque estadounidense del general Juan Martín Barrundia, quien había sido ministro de la Guerra del general Justo Rufino Barrios y que era enemigo personal del presidente guatemalteco.
+
+Barrundia había salido al exilio en México desde que Barillas se había hecho cargo de la presidencia en 1885, y había estado tratando de desestabhilizar al gobierno guatemalteco; en 1890, aprovechando la guerra entre El Salvador y Guatemala se embarcó hacia El Salvador en el buque «Acapulco» desde el puerto mexicano del mismo nombre.1​ Ese vapor atracó en Champerico el 26 de agosto, pero el capitán se negó a entregar a Barrundia a las autoridades guatemaltecas que lo estaban esperando pues no había recibido una notificación oficial del consulado estadounidense y decidió continuar hacia San José.2​
+
+El «Acapulco» llegó al puerto de San José al anochecer y el comandante del puerto, coronel Enrique Toriello, abordó el buque inmediatamente para capturar a Barrundia y a notificarle al capitán Pitts que tenía que permanecer 24 horas en el puerto, de acuerdo al contrato establecido con la Pacific Mail Steamship Co., propietaria del navío.3​ El capitán Pitts le indicó a Toriello que esperara hasta que él recibiera las instrucciones por escrito del embajador estadounidense para llevar a cabo el arresto.4​ Casi al mismo tiempo, el comandante Reiter, capitán del navío de guerra «Banger» que también estaba atracado en Puerto San José, envió un telegrama al embajador en donde le recomendaba que se permitiera a Barrundia retornar a México.5​ A las diez de la noche, Lansing B. Mizner respondió al capitán Pitts que entregara a Barrundia, porque se le había garantizado que se le respetaría la vida.6​
+
+El gobierno de Guatemala envió al subdirector de la Policía y a tres agentes al puerto, quienes al llegar se pusieron a las órdenes del coronel Toriello; Toriello abordó nuevamente y el capitán Pitts solicitó a Toriello que lo acompañara al camarote de Barrundia.7​ Cuando el capitán empezó a leerle a Barrundia la carta de Mizner, Toriello la iba traduciendo; tan pronto como Barrundia supo de lo que se trataba, sacó sus revólveres y empezó a disparar contra sus captores, quienes repelieron el fuego y le dieron muerte.7​
+
+El asunto causó un crisis diplomática que tuvo que ser resulta por la intervención de la Secretaría de Relaciones Exteriores de Guatemala.
+A finales del siglo xix, surgió el primer competidor serio de Puerto San José como principal puerte de la costa del Pacífico: en esa época, el movimiento progresivo de Guatemala requería urgentemente cómodos y adecuados puertos, ya que para descargar a un buque se necesitaban de ocho a diez días y se utilizaban formas arcaicas para desembarcar a los pasajeros,8​ lo que provocaba que varias compañías navieras rehusaran enviar sus buques al país.9​ El gobierno del general José María Reyna Barrios, en un afán de promover el ferrocarril interoceánico de Guatemala -ya que para entonces aún no se había construido el Canal de Panamá10​- durante la Exposición Centroamericana de 1897. Además, para ese entonces Guatemala dependía casi exclusivamente de la producción de café y -careciendo de industria- se veía obligada a importar una gran cantidad de bienes, por lo que mejorar las condiciones de los puertos nacionales era imperativo.9​
+
+Desafortunadamente, la sección del ferrocarril del Norte no se pudo concluir a tiempo para la Exposición Centroamericana, y toda la inversión en infraestructura fue un fracaso total para el gobierno. Cuando el general Reyna Barrios intentó extender su mandato las oposición no se hizo esperar: hubo revueltas en varios lugares del país, principalmente en Quetzaltenango y la situación desencadenó en el asesinato del presidente el 8 de febrero de 1898 y el inicio del gobierno de veintidós años del licenciado Manuel Estrada Cabrera.11​
+
+La Empresa Marítima Nacional en Puerto San José se oponía férreamente a la construcción en Iztapa porque eso equivalía a perder el monopolio que hasta entonces disfrutaba en el Puerto San José y que le representaba el dos por ciento del valor de la carga desembarcada; por otro lado, los comerciantes y cambistas de oro se oponían y declaraban imposible la construcción del puerto en Iztapa porque dicha construcción significaba uan considerable mejoría para la capacidad comercial del país, que dejaría de realizar préstamos a intereses muy elevados.9​ Finalmente, con el fracaso de la Exposición y el asesinato del general Reyna Barrios, quedó truncado el proyecto en Iztapa."/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_subheading"
+                android:text="Puerto San José"
+                android:textAppearance=
+                    "@android:style/TextAppearance.DeviceDefault"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/article_heading"
+                android:background="@color/colorPrimary"
+                android:text="Escuintla"
+                android:textAppearance=
+                    "@android:style/TextAppearance.DeviceDefault.Large"
+                android:textColor="@android:color/white"
+                android:textStyle="bold"/>
+        </LinearLayout>
+    </ScrollView>
+
+
+</FrameLayout>
